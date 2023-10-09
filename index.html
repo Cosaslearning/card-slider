@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Slider | Cosas Learning</title>
+    <!-- CDN Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Importing the CSS file -->
+    <link rel="stylesheet" href="style.css">     
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo"><img src="images/logo.png" alt="Logo"></div>
+      <div class="heding"><h1>Card Slider</h1></div>
+    </header>
+    <div class="hero_section">
+      <div class="cards_box swiper">
+        <div class="cards">
+           <div class="swiper-wrapper">
+              <!-- Card details -->
+              <section class="card_details swiper-slide">
+                 <div class="card_img_box">
+                    <img src="images/image1.jpg"  class="card_img">
+                 </div>
+                 <div class="card_data">
+                    <h3 class="card_name">Samuel Techton</h3>
+                    <p class="card_description">
+                     Software engineer with a knack for problem-solving, 
+                     I thrive on coding challenges and crafting elegant solutions.
+                    </p>
+                    <a href="#" class="card_button">Follow</a>
+                 </div>
+              </section>
+              <!-- Repeat similar sections for other cards -->
+              <section class="card_details swiper-slide">
+                <div class="card_img_box">
+                   <img src="images/image2.jpg"  class="card_img">
+                </div>
+                <div class="card_data">
+                   <h3 class="card_name">Emily Codecraft</h3>
+                   <p class="card_description">
+                     Dedicated to making the digital world more user-friendly, 
+                     I specialize in UI/UX design and interface optimization.
+                   </p>
+                   <a href="#" class="card_button">Follow</a>
+                </div>
+              </section>
+              <section class="card_details swiper-slide">
+                <div class="card_img_box">
+                   <img src="images/image3.jpg"  class="card_img">
+                </div>
+                <div class="card_data">
+                   <h3 class="card_name">David Datawizard</h3>
+                   <p class="card_description">
+                     Passionate about data analysis, 
+                     I transform raw data into actionable insights that drive informed decisions.
+                   </p>
+                   <a href="#" class="card_button">Follow</a>
+                </div>
+              </section>
+              <section class="card_details swiper-slide">
+                <div class="card_img_box">
+                   <img src="images/image4.jpg"  class="card_img">
+                </div>
+                <div class="card_data">
+                   <h3 class="card_name">Jessica Cyberstar</h3>
+                   <p class="card_description">
+                     In the realm of cybersecurity, I'm your shield against digital threats. 
+                     I ensure your online presence stays safe.
+                   </p>
+                   <a href="#" class="card_button">Follow</a>
+                </div>
+              </section>
+              <section class="card_details swiper-slide">
+                <div class="card_img_box">
+                   <img src="images/image5.jpg"  class="card_img">
+                </div>
+                <div class="card_data">
+                   <h3 class="card_name">Olivia AIwhisper</h3>
+                   <p class="card_description">
+                     Fascinated by AI, I develop machine learning models
+                     that enhance automation and decision-making.
+                   </p>
+                   <a href="#" class="card_button">Follow</a>
+                </div>
+              </section>
+              <section class="card_details swiper-slide">
+                <div class="card_img_box">
+                   <img src="images/image6.jpg"  class="card_img">
+                </div>
+                <div class="card_data">
+                   <h3 class="card_name">Rachel Cloudmaven</h3>
+                   <p class="card_description">
+                     As a cloud computing expert, I help businesses harness the power of the cloud, 
+                     ensuring scalability, and cost-efficiency.
+                   </p>
+                   <a href="#" class="card_button">Follow</a>
+                </div>
+              </section>
+              <section class="card_details swiper-slide">
+                <div class="card_img_box">
+                   <img src="images/image7.jpg"  class="card_img">
+                </div>
+                <div class="card_data">
+                   <h3 class="card_name">Michael Appsmith</h3>
+                   <p class="card_description">
+                     With a passion for app development, 
+                     I bring your mobile and web app ideas to life with functionality.
+                   </p>
+                   <a href="#" class="card_button">Follow</a>
+                </div>
+              </section>
+              <section class="card_details swiper-slide">
+                <div class="card_img_box">
+                   <img src="images/image8.jpg"  class="card_img">
+                </div>
+                <div class="card_data">
+                   <h3 class="card_name">Alex Robotech</h3>
+                   <p class="card_description">
+                     In the world of robotics and automation, I create innovative solutions 
+                     that improve efficiency.
+                   </p>
+                   <a href="#" class="card_button">Follow</a>
+                </div>
+              </section>
+            </div>
+          </div>                            
+        <!-- Navigation buttons -->
+        <div class="swiper-button-next">
+          <i class="fa-solid fa-angle-right"></i>
+        </div>     
+        <div class="swiper-button-prev">
+          <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+       </div>        
+    </div>
+  </div>
+  <!-- CDN Swiper JavaScript  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- Importing the JavaScript file -->
+  <script src="script.js"></script>
+</body>   
+</html>
